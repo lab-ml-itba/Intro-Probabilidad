@@ -47,5 +47,6 @@ from sklearn.naive_bayes import GaussianNB
 
 def train_and_plot(X, y, h=1):
     # TODO
+    return
     
 
