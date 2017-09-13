@@ -45,6 +45,20 @@ def plot_boundaries(X_train, X_test, y_train, y_test, score, probability_func, h
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
+''' 
+Utilizando las siguientes funciones/paquetes resolver los siguientes problemas de clasificación en **problema_2.py**:
+
+**genfromtxt** de **numpy** para leer los dos datasets:
+- ./datasets/student_admission.txt
+- ./datasets/chip_tests.txt
+
+**train_test_split** de **sklearn** para dividir entre test set y train set. Recomendamos un 40% de datos para test set
+
+**GaussianNB** de **sklearn** como modelo de ML.
+
+Y la función **plot_boundaries(X_train, X_test, y_train, y_test, score, predict_proba, ax=ax, h=h)** incluida en problema_2.py para graficar los resultados. X_train es un np.array con los features de entrada, y_train es la etiqueta. Lo mismo con X_test e y_test, Score es el 'accuracy' del modelo, predict_proba es la función que dada una entrada de la probabilidad de clasificar correcto y h es el paso para la grafica del 'boundary' 
+'''
+
 def train_and_plot(X, y, h=1):
     # TODO
     return
